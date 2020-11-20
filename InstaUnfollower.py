@@ -74,7 +74,7 @@ class InstagramUnfollower:
         self.follower_number = driver.find_element_by_xpath("//*[@id='react-root']/section/main/div/header/section/ul/li[2]/a/span").text
         self.unfollow_buttons = driver.find_elements_by_class_name("_8A5w5")
         for account in self._unfollow_list:
-            self.unfollow_buttons[self._unfollow_list.index(str(account))].click()
+            self.unfollow_buttons[self._unfollow_list.index(str(account))+1].click()
             time.sleep(0.5)
             driver.find_element_by_xpath("//button[@class='aOOlW -Cab_   ']").click()
             time.sleep(self.unfollowing_speed)
