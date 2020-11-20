@@ -1,5 +1,5 @@
 # Instagram Unfollower
-A Python script designed to unfollow users who you follow but they don't follow you back. Works with Selenium, without using Instagram API.
+A Python script designed to unfollow all users. Works with Selenium, without using Instagram API.
 
 # How to Use it ?
 
